@@ -97,11 +97,11 @@ dependencies {
 
 [Natig Babayev](https://www.linkedin.com/in/natiginfo/) - [natig.nizami@gmail.com](mailto:natig.nizami@gmail.com)
 
-## Donation [![paypal](screenshots/donate.svg)](http://textber.me/support/)
+## Donation ![donate](screenshots/donate.svg)
 
 If this project help you reduce time to develop, you can give me a cup of coffee :) 
 
-[![paypal](screenshots/donate.svg)](http://textber.me/support/)
+[![donate](screenshots/donate.svg)](http://textber.me/support/)
 
 ## License
 ```

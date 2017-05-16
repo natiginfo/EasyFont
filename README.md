@@ -8,7 +8,7 @@ Standalone Android widget which let's you set font easily from layout.
 
 Create ```assets``` folder in ```src/main```, and add your fonts there (inside ```src/main/assets/``` folder). Include ```TextView```, ```Button```, ```EditText```, or ```RadioButton``` in your layout file.
 
-```
+```xml
 <com.koonat.easyfont.TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -16,7 +16,7 @@ Create ```assets``` folder in ```src/main```, and add your fonts there (inside `
     app:font_path="your-folder-where-you-put-fonts/font1.ttf" />
 ```
 
-```
+```xml
 <com.koonat.easyfont.Button
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -24,7 +24,7 @@ Create ```assets``` folder in ```src/main```, and add your fonts there (inside `
     app:font_path="fonts/font2.ttf" />
 ```
 
-```
+```xml
 <com.koonat.easyfont.RadioButton
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -32,7 +32,7 @@ Create ```assets``` folder in ```src/main```, and add your fonts there (inside `
     app:font_path="fonts/font2.ttf" />
 ```
 
-```
+```xml
 <com.koonat.easyfont.EditText
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -49,7 +49,7 @@ You can also depend on the library through Maven or Gradle:
 
 ### Step 1 (Maven):
 Add the JitPack repository to your build file
-```
+```xml
 <repositories>
 	<repository>
 	    <id>jitpack.io</id>
@@ -60,7 +60,7 @@ Add the JitPack repository to your build file
 
 ### Step 2 (Maven):
 Add the dependency
-```
+```xml
 <dependency>
     <groupId>com.github.natiginfo</groupId>
     <artifactId>EasyFont</artifactId>
@@ -71,7 +71,7 @@ Add the dependency
 ### Step 1 (Gradle):
 Add it in your root build.gradle at the end of repositories:
 
-```
+```groovy
 allprojects {
 	repositories {
 		...
@@ -83,7 +83,7 @@ allprojects {
 ### Step 2:
 Step 2. Add the dependency
 
-```
+```groovy
 dependencies {
 	compile 'com.github.natiginfo:EasyFont:v1.0.1'
 }

@@ -68,7 +68,7 @@ Add the dependency
 <dependency>
     <groupId>com.github.natiginfo</groupId>
     <artifactId>EasyFont</artifactId>
-    <version>v1.0.1</version>
+    <version>v1.0.2</version>
 </dependency>
 ```
 
@@ -89,7 +89,7 @@ Add the dependency
 
 ```groovy
 dependencies {
-	compile 'com.github.natiginfo:EasyFont:v1.0.1'
+	compile 'com.github.natiginfo:EasyFont:v1.0.2'
 }
 ```
 

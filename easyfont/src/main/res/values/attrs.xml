@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <attr name="font_path" format="string" />
+
+    <declare-styleable name="TextView">
+        <attr name="font_path" />
+    </declare-styleable>
+
+    <declare-styleable name="EditText">
+        <attr name="font_path" />
+    </declare-styleable>
+
+    <declare-styleable name="Button">
+        <attr name="font_path" />
+    </declare-styleable>
+
+    <declare-styleable name="RadioButton">
+        <attr name="font_path" />
+    </declare-styleable>
+
+</resources>

@@ -4,6 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
     android:orientation="vertical"
     tools:context="com.koonat.easyfontexample.MainActivity">
 
@@ -23,5 +27,18 @@
         android:layout_marginTop="20dp"
         android:text="Button"
         app:font_path="fonts/font2.ttf" />
+
+    <com.koonat.easyfont.RadioButton
+        app:font_path="fonts/font2.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Button" />
+
+    <com.koonat.easyfont.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Example EditText"
+        android:gravity="center"
+        app:font_path="fonts/font1.ttf"/>
 
 </LinearLayout>

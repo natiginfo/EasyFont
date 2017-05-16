@@ -80,8 +80,8 @@ allprojects {
 }
 ```
 
-### Step 2:
-Step 2. Add the dependency
+### Step 2 (Gradle):
+Add the dependency
 
 ```groovy
 dependencies {

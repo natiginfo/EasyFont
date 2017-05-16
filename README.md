@@ -93,9 +93,13 @@ dependencies {
 }
 ```
 
+## Developed by
+
+[Natig Babayev](https://www.linkedin.com/in/natiginfo/) - [natig.nizami@gmail.com](mailto:natig.nizami@gmail.com)
+
 ## License
 ```
-Copyright 2012 Natig Babayev.
+Copyright 2017 Natig Babayev.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

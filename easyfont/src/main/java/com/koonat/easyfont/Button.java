@@ -28,5 +28,7 @@ public class Button extends android.widget.Button {
         } finally {
             typedArray.recycle();
         }
+
+        setTransformationMethod(null);
     }
 }

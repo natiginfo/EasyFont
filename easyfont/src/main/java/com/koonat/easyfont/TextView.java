@@ -29,5 +29,7 @@ public class TextView extends android.widget.TextView {
         } finally {
             typedArray.recycle();
         }
+
+        setTransformationMethod(null);
     }
 }

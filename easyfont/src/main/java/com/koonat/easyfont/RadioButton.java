@@ -28,5 +28,7 @@ public class RadioButton extends android.widget.RadioButton {
         } finally {
             typedArray.recycle();
         }
+
+        setTransformationMethod(null);
     }
 }

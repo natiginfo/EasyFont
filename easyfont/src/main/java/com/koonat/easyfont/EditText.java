@@ -28,5 +28,7 @@ public class EditText extends android.widget.EditText {
         } finally {
             typedArray.recycle();
         }
+
+        setTransformationMethod(null);
     }
 }

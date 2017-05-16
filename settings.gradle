@@ -1,1 +1,1 @@
-include ':app', ':easyfont'
+include ':example', ':easyfont'

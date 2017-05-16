@@ -13,7 +13,8 @@ Create ```assets``` folder in ```src/main```, and add your fonts there (inside `
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="TextView"
-    app:font_path="your-folder-where-you-put-fonts/font1.ttf" />
+    app:font_path="your-folder-where-you-put-fonts/font_name.ttf"
+    />
 ```
 
 ```xml
@@ -21,7 +22,8 @@ Create ```assets``` folder in ```src/main```, and add your fonts there (inside `
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="Button"
-    app:font_path="fonts/font2.ttf" />
+    app:font_path="your-folder-where-you-put-fonts/font_name.ttf" 
+    />
 ```
 
 ```xml
@@ -29,7 +31,8 @@ Create ```assets``` folder in ```src/main```, and add your fonts there (inside `
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="RadioButton"
-    app:font_path="fonts/font2.ttf" />
+    app:font_path="your-folder-where-you-put-fonts/font_name.ttf"
+    />
 ```
 
 ```xml
@@ -37,7 +40,8 @@ Create ```assets``` folder in ```src/main```, and add your fonts there (inside `
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:hint="EditText"
-    app:font_path="fonts/font2.ttf" />
+    app:font_path="your-folder-where-you-put-fonts/font_name.ttf"
+    />
 ```
 
 

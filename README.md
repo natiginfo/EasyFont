@@ -2,7 +2,7 @@
 
 Standalone Android widget which let's you set font easily from layout.
 
-![alt text](screenshots/screenshot.png)
+![alt text](screenshots/screenshot1.png)
 
 ## Usage
 
@@ -88,7 +88,6 @@ dependencies {
 	compile 'com.github.natiginfo:EasyFont:v1.0.1'
 }
 ```
-
 
 ## License
 ```

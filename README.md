@@ -1,6 +1,6 @@
 # EasyFont for Android
 
-Standalone Android widget which let's you set font easily from layout.
+Standalone Android widget which lets you set font easily from layout.
 
 ![alt text](screenshots/screenshot1.png)
 

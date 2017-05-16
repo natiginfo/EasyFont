@@ -97,6 +97,12 @@ dependencies {
 
 [Natig Babayev](https://www.linkedin.com/in/natiginfo/) - [natig.nizami@gmail.com](mailto:natig.nizami@gmail.com)
 
+## Donation
+
+If this project help you reduce time to develop, you can give me a cup of coffee :) 
+
+[![paypal](donate.svg)](http://textber.me/support/)
+
 ## License
 ```
 Copyright 2017 Natig Babayev.

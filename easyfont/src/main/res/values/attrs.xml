@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
+
     <attr name="font_path" format="string" />
+    <attr name="drawableLeftCompat" format="reference" />
+    <attr name="drawableRightCompat" format="reference" />
+    <attr name="drawableTopCompat" format="reference" />
+    <attr name="drawableBottomCompat" format="reference" />
 
     <declare-styleable name="TextView">
         <attr name="font_path" />
+        <attr name="drawableLeftCompat" />
+        <attr name="drawableRightCompat" />
+        <attr name="drawableTopCompat" />
+        <attr name="drawableBottomCompat" />
     </declare-styleable>
 
     <declare-styleable name="EditText">
         <attr name="font_path" />
+        <attr name="drawableLeftCompat" />
+        <attr name="drawableRightCompat" />
+        <attr name="drawableTopCompat" />
+        <attr name="drawableBottomCompat" />
     </declare-styleable>
 
     <declare-styleable name="Button">
         <attr name="font_path" />
+        <attr name="drawableLeftCompat" />
+        <attr name="drawableRightCompat" />
+        <attr name="drawableTopCompat" />
+        <attr name="drawableBottomCompat" />
     </declare-styleable>
 
     <declare-styleable name="RadioButton">
         <attr name="font_path" />
+        <attr name="drawableLeftCompat" />
+        <attr name="drawableRightCompat" />
+        <attr name="drawableTopCompat" />
+        <attr name="drawableBottomCompat" />
     </declare-styleable>
 
 </resources>

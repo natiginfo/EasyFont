@@ -33,10 +33,6 @@
 
     <declare-styleable name="RadioButton">
         <attr name="font_path" />
-        <attr name="drawableLeftCompat" />
-        <attr name="drawableRightCompat" />
-        <attr name="drawableTopCompat" />
-        <attr name="drawableBottomCompat" />
     </declare-styleable>
 
 </resources>

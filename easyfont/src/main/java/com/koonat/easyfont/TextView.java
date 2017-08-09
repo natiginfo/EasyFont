@@ -7,9 +7,10 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.support.annotation.Nullable;
 import android.support.v7.content.res.AppCompatResources;
+import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
 
-public class TextView extends android.widget.TextView {
+public class TextView extends AppCompatTextView {
 
     private String mFontPath;
 

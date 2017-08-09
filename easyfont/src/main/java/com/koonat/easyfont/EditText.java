@@ -6,9 +6,10 @@ import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.support.v7.content.res.AppCompatResources;
+import android.support.v7.widget.AppCompatEditText;
 import android.util.AttributeSet;
 
-public class EditText extends android.widget.EditText {
+public class EditText extends AppCompatEditText {
 
     private String mFontPath;
 

@@ -6,9 +6,10 @@ import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.support.v7.content.res.AppCompatResources;
+import android.support.v7.widget.AppCompatButton;
 import android.util.AttributeSet;
 
-public class Button extends android.widget.Button {
+public class Button extends AppCompatButton {
 
     private String mFontPath;
 

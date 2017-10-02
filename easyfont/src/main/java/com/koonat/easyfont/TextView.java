@@ -49,7 +49,7 @@ public class TextView extends AppCompatTextView {
 
             mFontPath = typedArray.getString(R.styleable.TextView_font_path);
             if (mFontPath != null && !mFontPath.isEmpty()) {
-                Typeface typeface = Typeface.createFromAsset(context.getAssets(), mFontPath);
+                Typeface typeface = TypefaceManager.getInstance().getTypeface(context, mFontPath);
                 setTypeface(typeface);
             }
             typedArray.recycle();

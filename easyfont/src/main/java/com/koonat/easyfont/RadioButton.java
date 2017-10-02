@@ -22,7 +22,7 @@ public class RadioButton extends android.widget.RadioButton {
                     mFontPath = typedArray.getString(attr);
             }
             if (mFontPath != null && !mFontPath.isEmpty()) {
-                Typeface typeface = Typeface.createFromAsset(context.getAssets(), mFontPath);
+                Typeface typeface = TypefaceManager.getInstance().getTypeface(context, mFontPath);
                 setTypeface(typeface);
             }
         } finally {

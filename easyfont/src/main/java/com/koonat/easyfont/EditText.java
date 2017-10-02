@@ -47,7 +47,7 @@ public class EditText extends AppCompatEditText {
 
             mFontPath = typedArray.getString(R.styleable.EditText_font_path);
             if (mFontPath != null && !mFontPath.isEmpty()) {
-                Typeface typeface = Typeface.createFromAsset(context.getAssets(), mFontPath);
+                Typeface typeface = TypefaceManager.getInstance().getTypeface(context, mFontPath);
                 setTypeface(typeface);
             }
             typedArray.recycle();

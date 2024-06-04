@@ -93,16 +93,6 @@ dependencies {
 }
 ```
 
-## Developed by
-
-[Natig Babayev](https://www.linkedin.com/in/natiginfo/) - [natig.nizami@gmail.com](mailto:natig.nizami@gmail.com)
-
-## Donation
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](http://textber.me/support/)
-
-If this project help you reduce time to develop, you can give me a cup of coffee :) 
-
 ## License
 ```
 Copyright 2017 Natig Babayev.
